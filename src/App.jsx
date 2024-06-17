@@ -18,6 +18,18 @@ function App() {
         </p>
 
         <div className="card">This is Card Div!</div>
+
+        <div className="flex justify-center items-center mt-16 bg-gray-300 h-80 w-90 rounded-lg">
+          <div className="container h-10 w-80">
+            This Div Is for Container class
+          </div>
+          <div className="container h-10 w-80 mx-auto">
+            This Div Is for Container class
+          </div>
+          <div className="container h-10 w-80 mx-auto">
+            This Div Is for Container class
+          </div>
+        </div>
       </section>
     </>
   );
