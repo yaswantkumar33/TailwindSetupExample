@@ -93,9 +93,12 @@ function App() {
           </li>
         </ul>
       </div>
-
+      {/* custom color in tailwind  */}
+      <p className="text-2xl mx-[5px] bg-stone-300 p-[10px] text-[#973F29]">
+        chestpeanut color{" "}
+      </p>
       {/* theme dark  */}
-      <div className="m-10 px-6 py-8 rounded-lg shadow-xl ring-1 ring-slate-900/5  dark:bg-black ">
+      <div className="themetoggle">
         <h1 className="dark:text-white">Dark Theme </h1>
         <p className="dark:text-white">Thiis the dark theme paragraph </p>
         <button
@@ -108,6 +111,9 @@ function App() {
           Toggle to dark mode
         </button>
       </div>
+      <a href="" className="spcl-btn">
+        <span className="ml-2">Bouncing Button 🏀</span>
+      </a>
     </>
   );
 }

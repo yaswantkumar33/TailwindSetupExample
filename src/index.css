@@ -17,4 +17,10 @@
     width: 300px;
     height: 100px;
   }
+  .themetoggle {
+    @apply m-10 px-6 py-8 rounded-lg shadow-xl ring-1 ring-slate-900/5  dark:bg-black;
+  }
+  .spcl-btn {
+    @apply animate-bounce focus:animate-none hover:animate-none inline-flex text-base font-medium bg-indigo-900 mt-3 px-4 py-2 rounded-lg tracking-wide text-white;
+  }
 }
